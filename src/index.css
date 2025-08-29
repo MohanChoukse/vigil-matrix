@@ -215,7 +215,7 @@
   }
 
   .glass-card:hover {
-    @apply border-border-hover;
+    border-color: hsl(var(--border-hover));
     transform: translateY(-2px);
     box-shadow: var(--shadow-elegant);
   }
